@@ -6,7 +6,7 @@
 > **本仓库只包含注入进游戏进程的那部分代码（`fps_unlocker.cpp`）。**
 > 注入器（ptrace 远端 `mmap` + `dlopen`）与 状态 悬浮窗**不公开**。
 > 想用起来需要你自己的注入方式（Zygisk 模块 / LSPosed / 任意 ptrace 注入器如JS HOOK），
-
+> fps_unlocker.cpp有部分代码可以为你提供面板侦测帧率和注入状态等
 ---
 
 ## ⚠️ 先读这一段
